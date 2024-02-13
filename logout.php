@@ -1,0 +1,11 @@
+<?php
+// Inicializa a sessão
+session_start();
+
+// Destroi a sessão
+session_destroy();
+
+// Redireciona para a página de login
+header('Location: login.php');
+exit;
+?>
